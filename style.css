@@ -1,3 +1,7 @@
+body {
+    font-family: arial, serif, sans-serif;
+    margin: auto;
+}
 h1 {
     -moz-text-size-adjust: 50%;
 }
