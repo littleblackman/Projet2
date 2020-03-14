@@ -27,6 +27,37 @@ h1 {
 #blocpage {
     margin: 1em;
 }
+.mise_en_page {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.annee {
+    padding: 0 15% 0 0;
+}
+
+.date {
+    display: flex;
+    width: 30%;
+}
+
+.date > p {
+    padding: 20% 10% 0 100%;;
+}
+
+.puce {
+    padding: 105% 7% 0 0;
+}
+
+.etablissement {
+    width: 70%;
+}
+
+#bloc_droit > h3 {
+    color: #000;
+    border-bottom: 1.3px solid #336699;
+    padding-bottom: 1%;
+}
 h4 {
     color:#FFC107 ;
     text-align: center;
