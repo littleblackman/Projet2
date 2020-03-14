@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     -moz-text-size-adjust: 50%;
 }
@@ -57,3 +58,64 @@ height: 100px ;
     text-decoration-line: underline ;
     text-decoration-color: #FFC107;
 }
+=======
+h1 {
+    -moz-text-size-adjust: 50%;
+}
+.jaune {
+    color:#FFC107 ;
+}
+.zoneprincipale {
+
+    width: 77%;
+
+    float: right;
+}
+.zonegauche{
+
+    width: 22%;
+
+    background-color:#FFC107 ;   
+
+    float: left;
+
+    margin-bottom: -1000px;   
+
+    padding-bottom: 1000px;
+
+    word-wrap: break-word;
+}
+#blocpage {
+    margin: 1em;
+}
+h4 {
+    color:#FFC107 ;
+    text-align: center;
+    background-color:#263238;
+    }
+.logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom:10px ;
+    border-radius: 50%;
+    width: 100px;
+height: 100px ;
+      }
+#blocimage {
+  margin-left: 3em;
+  margin-right: auto;
+}
+.line {
+    margin-bottom: -70px;
+}
+#blocdroite {
+    margin: 1em;
+}
+.underline 
+{
+    text-decoration-line: underline ;
+    text-decoration-color: #FFC107;
+} 
+>>>>>>> c57b732fd93fa359163f10d34154eedc3de958ff
