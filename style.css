@@ -1,26 +1,27 @@
+body {
+    font-family: arial, serif, sans-serif;
+    margin: auto;
+    max-width: 900px;
+}
+
 h1 {
-    -moz-text-size-adjust: 50%;
+    font-size: 250%;
+    font-weight: lighter;
 }
 .jaune {
     color:#FFC107 ;
 }
 .zoneprincipale {
-
-    width: 77%;
-
+    width: 65%;
     float: right;
+    margin: auto;
+    padding-bottom: 2%;
 }
 .zonegauche{
 
-    width: 22%;
+    width: 30%;
 
     background-color:#FFC107 ;   
-
-    float: left;
-
-    margin-bottom: -1000px;   
-
-    padding-bottom: 1000px;
     
     word-wrap: break-word;
 }
@@ -87,4 +88,7 @@ height: 100px ;
 {
     text-decoration-line: underline ;
     text-decoration-color: #FFC107;
+}
+#informations > p {
+    padding: 8% 15% 8% 15%;
 }
