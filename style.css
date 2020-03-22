@@ -1,51 +1,85 @@
-<<<<<<< HEAD
+body {
+    font-family: arial, serif, sans-serif;
+    margin: auto;
+    max-width: 900px;
+}
+
 h1 {
-    -moz-text-size-adjust: 50%;
+    font-size: 250%;
+    font-weight: lighter;
 }
 .jaune {
     color:#FFC107 ;
 }
 .zoneprincipale {
-
-    width: 77%;
-
+    width: 65%;
     float: right;
+    margin: auto;
+    padding-bottom: 2%;
 }
 .zonegauche{
 
-    width: 22%;
+    width: 30%;
 
     background-color:#FFC107 ;   
-
-    float: left;
-
-    margin-bottom: -1000px;   
-
-    padding-bottom: 1000px;
     
     word-wrap: break-word;
 }
 #blocpage {
     margin: 1em;
 }
-h4 {
-    color:#FFC107 ;
-    text-align: center;
-    background-color:#263238;
-    }
-.logo {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom:10px ;
-    border-radius: 50%;
-    width: 100px;
+.mise_en_page {
+    display: flex;
+    padding-bottom: 1%;
+}
+
+.annee {
+    padding: 0 15% 0 0;
+}
+
+.date {
+    display: flex;
+    width: 30%;
+}
+
+.date > p {
+    padding: 20% 10% 0 100%;;
+}
+
+.puce {
+    padding: 105% 7% 0 0;
+}
+
+.etablissement {
+    width: 70%;
+}
+
+#bloc_droit > h3 {
+    color: #000;
+    border-bottom: 1.3px solid #336699;
+    padding-bottom: 1%;
+}
+
+h4 
+{
+color:#FFC107 ;
+text-align: center;
+background-color:#263238;
+}
+
+img
+{
+margin-left: 5em;
+margin-right: auto;
+margin-top: 1em;
+margin-bottom:0.1em;
+border-radius: 50%;
+width: 100px;
 height: 100px ;
       }
 #blocimage {
-  margin-left: 3em;
-  margin-right: auto;
+  margin-left: 5em;
+  margin-right: 4em;
 }
 .line {
     margin-bottom: -70px;
@@ -58,64 +92,6 @@ height: 100px ;
     text-decoration-line: underline ;
     text-decoration-color: #FFC107;
 }
-=======
-h1 {
-    -moz-text-size-adjust: 50%;
+#informations > p {
+    padding: 8% 15% 8% 15%;
 }
-.jaune {
-    color:#FFC107 ;
-}
-.zoneprincipale {
-
-    width: 77%;
-
-    float: right;
-}
-.zonegauche{
-
-    width: 22%;
-
-    background-color:#FFC107 ;   
-
-    float: left;
-
-    margin-bottom: -1000px;   
-
-    padding-bottom: 1000px;
-
-    word-wrap: break-word;
-}
-#blocpage {
-    margin: 1em;
-}
-h4 {
-    color:#FFC107 ;
-    text-align: center;
-    background-color:#263238;
-    }
-.logo {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom:10px ;
-    border-radius: 50%;
-    width: 100px;
-height: 100px ;
-      }
-#blocimage {
-  margin-left: 3em;
-  margin-right: auto;
-}
-.line {
-    margin-bottom: -70px;
-}
-#blocdroite {
-    margin: 1em;
-}
-.underline 
-{
-    text-decoration-line: underline ;
-    text-decoration-color: #FFC107;
-} 
->>>>>>> c57b732fd93fa359163f10d34154eedc3de958ff
