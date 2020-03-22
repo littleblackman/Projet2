@@ -71,12 +71,13 @@ text-align: center;
 background-color:#263238;
 }
 
-img
+.img
 { 
 margin: auto;
 border-radius: 50%;
-width: 100px;
-height: 100px ;
+width: 150px;
+height: 150px ;
+overflow: hidden;
       }
 #blocimage {
     margin-left: auto;
@@ -103,8 +104,13 @@ height: 100px ;
 #photo {
     width: 30%;
     background-color:#FFC107 ;
+    padding: 5% 0 5% 0;
+
 }
 #titre {
     width: 65%;
     line-height: 110%;
+}
+#taillephoto {
+    width: 150px;
 }
