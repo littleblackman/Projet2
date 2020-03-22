@@ -3,24 +3,32 @@ body {
     margin: auto;
     max-width: 900px;
 }
-
+header {
+    display: flex;
+}
 h1 {
     font-size: 250%;
+    padding: 15% 0 0 7%;
     font-weight: lighter;
+}
+h2 {
+    padding-left: 7%;
+    letter-spacing: 0.5px;
 }
 .jaune {
     color:#FFC107 ;
 }
 .zoneprincipale {
+    display:flex;
     width: 65%;
     float: right;
-    margin: auto;
-    padding-bottom: 2%;
+    
 }
 .zonegauche{
-
+    
+    display:flex;
     width: 30%;
-
+    flex-direction: column;
     background-color:#FFC107 ;   
     
     word-wrap: break-word;
@@ -54,11 +62,6 @@ h1 {
     width: 70%;
 }
 
-#bloc_droit > h3 {
-    color: #000;
-    border-bottom: 1.3px solid #336699;
-    padding-bottom: 1%;
-}
 
 h4 
 {
@@ -68,24 +71,22 @@ background-color:#263238;
 }
 
 img
-{
-margin-left: 5em;
-margin-right: auto;
-margin-top: 1em;
-margin-bottom:0.1em;
+{ 
+margin: auto;
 border-radius: 50%;
 width: 100px;
 height: 100px ;
       }
 #blocimage {
-  margin-left: 5em;
-  margin-right: 4em;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 .line {
-    margin-bottom: -70px;
+    
 }
 #blocdroite {
-    margin: 1em;
+   
 }
 .underline 
 {
@@ -94,4 +95,15 @@ height: 100px ;
 }
 #informations > p {
     padding: 8% 15% 8% 15%;
+}
+.formation  {
+    display: flex;
+}
+#photo {
+    width: 30%;
+    background-color:#FFC107 ;
+}
+#titre {
+    width: 65%;
+    line-height: 110%;
 }
