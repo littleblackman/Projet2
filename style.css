@@ -19,14 +19,15 @@ h2 {
     color:#FFC107 ;
 }
 .zoneprincipale {
-    display:flex;
+  /*  display:flex;*/
     width: 65%;
-    float: right;
+    /*float: right;*/
     padding: 3.5% 0 2% 0;
     
 }
-.zonegauche{
-    
+
+main { display: flex }
+.zonegauche{   
     display:flex;
     width: 30%;
     flex-direction: column;
